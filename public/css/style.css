@@ -1,0 +1,271 @@
+
+
+:root{
+  --green:#3A9943;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+.looogo{
+    height: 150px;
+    width: 150px;
+}
+
+*::selection{
+  background:var(--green);
+  color:#fff;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+section{
+  padding:1.5rem 9%;
+}
+
+.heading{
+  font-size: 3rem;
+  color:#444;
+  padding-left: 1rem;
+  border-left: .4rem solid var(--green);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding:.8rem 3rem;
+  background:var(--green);
+  color:#fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background:#333;
+}
+
+.header-1,
+.header-2,
+.header-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 9%;
+  background:var(--green);
+}
+
+.header-1{
+  border-bottom: .1rem solid rgba(255,255,255,.2);
+}
+
+.header-3{
+  background:#fff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  position: relative;
+  z-index: 10000;
+}
+
+.header-1 span{
+  font-weight: lighter;
+  color:#fff;
+  font-size: 1.7rem;
+}
+
+.header-1 a{
+  padding:0 .7rem;
+  color:#fff;
+  font-size: 2rem;
+}
+
+.header-1 a:hover{
+  color:yellow;
+}
+
+.header-2 .logo{
+  font-weight: bolder;
+  font-size: 3rem;
+  color:#fff;
+}
+
+.header-2 .logo i{
+  color:yellow;
+}
+
+.header-2 .search-bar-container{
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  padding:1.5rem;
+  background:rgba(255,255,255,.2);
+  border-radius: .5rem;
+}
+
+.header-2 .search-bar-container #search-bar{
+  width: 100%;
+  background:none;
+  text-transform: none;
+  color:#fff;
+  font-size: 1.7rem;
+}
+
+.header-2 .search-bar-container #search-bar::placeholder{
+  text-transform: capitalize;
+  color:#ddd;
+}
+
+.header-2 .search-bar-container label{
+  color:#fff;
+  cursor: pointer;
+  font-size: 2rem;
+  padding:0 .5rem;
+}
+
+.header-2 .search-bar-container label:hover{
+  color:yellow;
+}
+
+.header-3 .navbar a{
+  color:#666;
+  font-size: 2rem;
+}
+
+.header-3 .icons {
+  color:#666;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.header-3 a:hover{
+  color:var(--green);
+}
+
+#menu-bar{
+  font-size: 3rem;
+  color:#666;
+  border:.1rem solid #666;
+  border-radius: .5rem;
+  padding:.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.header-3.active{
+  position: fixed;
+  top:0; left: 0; right: 0;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_page{
+    display: flex;
+    justify-content: space-between;
+    background: url('./viewsfast.png')no-repeat ; 
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    padding: 25px;
+}
+
+.navbar_contents a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.about_contents{
+    display: grid;
+    gap: 150px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.about_contents img{
+    height: 400px;
+    width: 400px;
+}
+.about_contents h2{
+    padding: 50px;
+    font-size: 28px;
+    background-color: rgb(255, 255, 197);
+    border-radius: 30px;
+}
+.container h1{
+    color: purple;
+    padding: 55px;
+    font-size: 40px;
+}
+
+.order{
+    color: black;
+    background-color: lawngreen;
+    padding: 30px 40px;
+    border-radius: 25px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+.order:hover{
+    background-color: blueviolet;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.abcd{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+   /* text-align: center; */
+    size-adjust: 10px;
+    background-color: black;
+    color: white;
+    height: 50px;  
+    margin-top: 10px;
+}
+.lo{
+    height: 222px;
+}
+
+img{
+  border-radius: 20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Confirm Order</title>
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .dog{
+            
+            height: 100vh;
+            width: 193vh;
+            padding: 20% ;
+            align-items: center;
+            font-size: medium;
+            /* margin-left: 3px; */
+           
+        }
+        .dog1{
+            border-width: 5px;
+            margin-left: 200px;
+           border-color: black;
+           box-sizing: border-box;
+           line-height: 15px;
+        }
+        h1{
+            font-size: 50px;
+            color: red  ;
+        }
+        .dog1{
+            border-radius: 30px;
+            border-color: black;
+            border-style: double;
+            margin-right: 100px;
+            padding: 10px;
+            align-content: center;
+
+            
+        }
+        .dog1 h1{
+            margin-left: 20%;
+        }
+        .dog1 p{
+            margin-left: 20%;
+
+        }
+        .dog1 button{
+            margin-left: 20%;
+        }
+    </style>
+     <script type="text/javascript"  src="./locationgg.js"></script>
+     
+</head>
+<body>
+   
+        <div class="dog">
+            <div class="dog1">
+        <h1 >Confirm Order</h1>
+        <p>Click the button to confirm the Order</p>
+        <p id="demo" name="demo"> </p>
+        
+        <button class="btn btn-sm btn-primary btn-success" type="submit" id="try" onclick="getLocation()">Submit </button>
+        <p id="driver"></p>
+    </div>
+    </div>
+    
+
+    
+   
+</body>
+</html>
